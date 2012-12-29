@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<server name="pikachu" description="Pikachizer"
+        url="http://pikachize.eye-of-newt.com/pika.cgi"
+        random="no">
+
+  <input name="text" />
+  <output tag="pre" pos="1" regexp="(.*)" />
+
+  <langpairs>
+    <langpair id="all-pk" description="pikachu language" />
+    <langpair id="all-pikachu" description="pikachu language" />
+    <langpair id="en-es" description="pikachu language" />
+  </langpairs>
+
+</server>
+
+
+<!-- 
+vim:ts=2 sts=2 tw=79 expandtab:
+-->
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!DOCTYPE reddo-servers [
+  <!ENTITY google SYSTEM 'file:///etc/reddo/servers/google.xml'>
+  <!ENTITY babelfish SYSTEM 'file:///etc/reddo/servers/babelfish.xml'>
+  <!ENTITY systran SYSTEM 'file:///etc/reddo/servers/systran.xml'>
+  <!ENTITY pikachu SYSTEM 'file:///etc/reddo/servers/pikachu.xml'>
+]>
+
+<servers>
+
+  <!-- list of reddo servers -->
+  &google;
+  &babelfish;
+  &systran;
+  &pikachu;
+  <!-- end of reddo servers -->
+
+</servers>
+
+
+<!-- 
+vim:ts=2 sts=2 tw=79 expandtab:
+-->
+

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<server name="babelfish" description="Altavista Babelfish translation"
+        url="http://babelfish.altavista.com/tr"
+        random="yes">
+
+  <input name="trtext" />
+  <output tag="div" pos="2" regexp="(.*)" />
+
+  <langpairs>
+
+  <langpair id="zh-en" description="Chinesesimp-English">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="zh_en" />
+    </params>
+  </langpair>
+ 
+  <langpair id="zt-en" description="Chinesetrad-English">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="zt_en" />
+    </params>
+  </langpair>
+ 
+  <langpair id="en-zh" description="English-Chinesesimp">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="en_zh" />
+    </params>
+  </langpair>
+ 
+  <langpair id="en-zt" description="English-Chinesetrad">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="en_zt" />
+    </params>
+  </langpair>
+ 
+  <langpair id="en-nl" description="English-Dutch">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="en_nl" />
+    </params>
+  </langpair>
+ 
+  <langpair id="en-fr" description="English-French">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="en_fr" />
+    </params>
+  </langpair>
+ 
+  <langpair id="en-de" description="English-Dutch">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="en_de" />
+    </params>
+  </langpair>
+ 
+  <langpair id="en-el" description="English-Greek">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="en_el" />
+    </params>
+  </langpair>
+ 
+  <langpair id="en-it" description="English-Italian">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="en_it" />
+    </params>
+  </langpair>
+ 
+  <langpair id="en-ja" description="English-Japanese">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="en_ja" />
+    </params>
+  </langpair>
+ 
+  <langpair id="en-ko" description="English-Korean">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="en_ko" />
+    </params>
+  </langpair>
+ 
+  <langpair id="en-pt" description="English-Portuguese">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="en_pt" />
+    </params>
+  </langpair>
+ 
+  <langpair id="en-ru" description="English-Russian">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="en_ru" />
+    </params>
+  </langpair>
+ 
+  <langpair id="en-es" description="English-Spanish">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="en_es" />
+    </params>
+  </langpair>
+ 
+  <langpair id="nl-en" description="Dutch-English">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="nl_en" />
+    </params>
+  </langpair>
+ 
+  <langpair id="nl-fr" description="Dutch-French">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="nl_fr" />
+    </params>
+  </langpair>
+ 
+  <langpair id="fr-en" description="French-English">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="fr_en" />
+    </params>
+  </langpair>
+ 
+  <langpair id="fr-de" description="French-German">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="fr_de" />
+    </params>
+  </langpair>
+ 
+  <langpair id="fr-el" description="French-Greek">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="fr_el" />
+    </params>
+  </langpair>
+ 
+  <langpair id="fr-it" description="French-Italian">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="fr_it" />
+    </params>
+  </langpair>
+ 
+  <langpair id="fr-pt" description="French-Portuguese">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="fr_pt" />
+    </params>
+  </langpair>
+ 
+  <langpair id="fr-nl" description="French-Dutch">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="fr_nl" />
+    </params>
+  </langpair>
+ 
+  <langpair id="fr-es" description="French-Spanish">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="fr_es" />
+    </params>
+  </langpair>
+ 
+  <langpair id="de-en" description="Dutch-English">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="de_en" />
+    _</params>
+  </langpair>
+ 
+  <langpair id="de-fr" description="Dutch-French">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="de_fr" />
+    </params>
+  </langpair>
+ 
+  <langpair id="el-en" description="Greek-English">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="el_en" />
+    </params>
+  </langpair>
+ 
+  <langpair id="it-en" description="Italian-English">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="it_en" />
+    </params>
+  </langpair>
+ 
+  <langpair id="it-fr" description="Italian-French">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="it_fr" />
+    </params>
+  </langpair>
+ 
+  <langpair id="ja-en" description="Japanese-English">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="ja_en" />
+    </params>
+  </langpair>
+ 
+  <langpair id="ko-en" description="Korean-English">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="ko_en" />
+    </params>
+  </langpair>
+ 
+  <langpair id="pt_en" description="Portuguese-English">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="pt_en" />
+    </params>
+  </langpair>
+ 
+  <langpair id="pt_fr" description="Portuguese-French">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="pt_fr" />
+    </params>
+  </langpair>
+ 
+  <langpair id="ru-en" description="Russian-English">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="ru-en" />
+    </params>
+  </langpair>
+ 
+  <langpair id="es-en" description="Spanish-English">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="es_en" />
+    </params>
+  </langpair>
+ 
+  <langpair id="es-fr" description="Spanish-French">
+    <params>
+      <param name="doit" value="done" />
+      <param name="intl" value="1" />
+      <param name="tt" value="urltext" />
+      <param name="lp" value="es_fr" />
+    </params>
+  </langpair>
+
+  </langpairs>
+
+</server>
+
+
+<!-- 
+vim:ts=2 sts=2 tw=79 expandtab:
+-->
+

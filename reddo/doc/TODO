@@ -1,0 +1,36 @@
+
+ If you want to contribute to this project, check this TODO list :)
+
+ - more servers:
+     write a lot of xml files in order to support 
+     more translation web services
+
+ - --list-servers
+   --list-langpairs
+
+ - utf-8 output support
+
+ - Autodetection of new server files
+
+ - Show all the avaliables translations in each server
+
+ - Servers autoupdate
+     reddo update
+
+ - Translate a text when receiving only the langpair, for example 
+   when using reddo -l es-en reddo would check wich servers support
+   that translation and will show the text translated.
+
+ - Show all the possibles translations
+
+ - Option to show images, using google image search or 
+   http://multimedia.alltheweb.com 
+
+ - Add a config parameter to set the maximium number of words a 
+   server can translate.
+
+ - Xerox:
+   http://www.xrce.xerox.com/competencies/content-analysis/tools/guesser-ISO-8859-1.en.html
+
+# vim:ts=4 sts=4 tw=70 expandtab:
+

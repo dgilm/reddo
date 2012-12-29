@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<server name="google" description="Google Language Tools"
+        url="http://translate.google.com/translate_t"
+        random="yes">
+
+  <input name="text" />
+  <output tag="textarea" pos="1" regexp="(.*)" />
+
+  <langpairs>
+
+  <langpair id="en-de" description="English-German">
+    <params>
+      <param name="langpair" value="en|de" />
+      <param name="hl" value="en" />
+    </params>
+  </langpair>
+  
+  <langpair id="en-es" description="English-Spanish">
+    <params>
+      <param name="langpair" value="en|es" />
+      <param name="hl" value="en" />
+    </params>
+  </langpair>
+
+  <langpair id="en-fr" description="English-French">
+    <params>
+      <param name="langpair" value="en|fr" />
+      <param name="hl" value="en" />
+    </params>
+  </langpair>
+
+  <langpair id="en-it" description="English-Italian">
+    <params>
+      <param name="langpair" value="en|it" />
+      <param name="hl" value="en" />
+    </params>
+  </langpair>
+
+  <langpair id="en-pt" description="English-Portuguese">
+    <params>
+      <param name="langpair" value="en|pt" />
+      <param name="hl" value="en" />
+    </params>
+  </langpair>
+
+  <langpair id="en-jp" description="English-Japanese">
+    <params>
+      <param name="langpair" value="en|ja" />
+      <param name="hl" value="en" />
+    </params>
+  </langpair>
+
+  <langpair id="en-ko" description="English-Korean">
+    <params>
+      <param name="langpair" value="en|ko" />
+      <param name="hl" value="en" />
+    </params>
+  </langpair>
+
+  <langpair id="en-zh" description="English-Chinese">
+    <params>
+      <param name="langpair" value="en|zh-CN" />
+      <param name="hl" value="en" />
+    </params>
+  </langpair>
+
+  <langpair id="de-en" description="German-English">
+    <params>
+      <param name="langpair" value="de|en" />
+      <param name="hl" value="de" />
+    </params>
+  </langpair>
+
+  <langpair id="de-fr" description="German-French">
+    <params>
+      <param name="langpair" value="de|fr" />
+      <param name="hl" value="de" />
+    </params>
+  </langpair>
+
+  <langpair id="es-en" description="Spanish-English">
+    <params>
+      <param name="langpair" value="es|en" />
+      <param name="hl" value="es" />
+    </params>
+  </langpair>
+
+  <langpair id="fr-en" description="French-English">
+    <params>
+      <param name="langpair" value="fr|en" />
+      <param name="hl" value="fr" />
+    </params>
+  </langpair>
+
+  <langpair id="fr-de" description="French-German">
+    <params>
+      <param name="langpair" value="fr|de" />
+      <param name="hl" value="fr" />
+    </params>
+  </langpair>
+
+  <langpair id="it-en" description="Italian-English">
+    <params>
+      <param name="langpair" value="it|en" />
+      <param name="hl" value="it" />
+    </params>
+  </langpair>
+
+  <langpair id="pt-en" description="Portuguese-English">
+    <params>
+      <param name="langpair" value="pt|en" />
+      <param name="hl" value="pt" />
+    </params>
+  </langpair>
+
+  <langpair id="ja-en" description="Japanese-English">
+    <params>
+      <param name="langpair" value="ja|en" />
+      <param name="hl" value="ja" />
+    </params>
+  </langpair>
+
+  <langpair id="ko-en" description="Korean-English">
+    <params>
+      <param name="langpair" value="ko|en" />
+      <param name="hl" value="ko" />
+    </params>
+  </langpair>
+
+  <langpair id="zh-en" description="Chinese-English">
+    <params>
+      <param name="langpair" value="zh-CN|en" />
+      <param name="hl" value="zh-CN" />
+    </params>
+  </langpair>
+
+  </langpairs>
+
+</server>
+
+
+<!-- 
+vim:ts=2 sts=2 tw=79 expandtab:
+-->
+

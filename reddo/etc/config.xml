@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<config>
+
+  <servers filename="/etc/reddo/servers.xml">
+    <default name="random" langpair="en-es" />
+  </servers>
+
+</config>
+
+
+<!-- 
+vim:ts=2 sts=2 tw=79 expandtab:
+-->
+

@@ -1,0 +1,62 @@
+
+  INSTALL
+  -------
+
+  As simple as:
+
+    # python setup.py install
+
+  (Probably you will need python-dev package of your favorite distro).
+
+
+  UNINSTALL
+  ---------
+
+  Reddo will be installed in:
+
+    $(prefix)/bin/reddo
+    $(prefix)/share/reddo/reddolib/
+    $(prefix)/share/doc/reddo/
+    $(prefix)/share/man/man1/reddo.1.gz
+    /etc/reddo/
+
+
+  RPM PACKAGES
+  ------------
+
+  Just execute:
+
+    # python setup.py bdist_rpm
+
+
+  DEBIAN PACKAGES
+  ---------------
+
+  If you are a debian|ubuntu user, probably you prefer to build your
+  own debian package. Just usu:
+  
+    # dpkg-buildpackage
+  
+  (from dpkg-dev package) in order to generate reddo deb packages.
+
+
+  APT REPOSITORY
+  --------------
+
+  Also, there are debian packages at this apt reposity:
+
+    [ -- /etc/apt/sources.list -- ]
+    deb http://reddo.sourceforge.net/ debian/
+    deb-src http://reddo.sourceforge.net/ debian/
+
+  You know the drill:
+
+    # apt-get install reddo
+
+  If you want to take a look at the source package:
+
+    # apt-get source reddo
+
+
+# vim:ts=2 sts=2 tw=72 expandtab:
+

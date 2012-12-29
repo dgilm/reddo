@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<server name="systran" description="Systran Language Translation Technologies"
+        url="http://www.systranbox.com/systran/box"
+        random="yes">
+
+  <input name="systran_text" />
+  <output tag="textarea" pos="1" regexp="(.*)" />
+
+  <langpairs>
+
+  <langpair id="en-es" description="English-Spanish">
+    <params>
+      <param name="systran_lp" value="en_es" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="es-en" description="Spanish-English">
+    <params>
+      <param name="systran_lp" value="es_en" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="ar-en" description="Arabic to English">
+    <params>
+      <param name="systran_lp" value="ar_en" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="en-ar" description="English to Arabic">
+    <params>
+      <param name="systran_lp" value="en_ar" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="sv-en" description="Swedish to English">
+    <params>
+      <param name="systran_lp" value="sv_en" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="en-sv" description="English to Swedish">
+    <params>
+      <param name="systran_lp" value="en_sv" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="en-nl" description="English to Dutch">
+    <params>
+      <param name="systran_lp" value="en_nl" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="nl-en" description="Dutch to English">
+    <params>
+      <param name="systran_lp" value="nl_en" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="en-ja" description="English to Japanese">
+    <params>
+      <param name="systran_lp" value="en_ja" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="ja-en" description="Japanese to English">
+    <params>
+      <param name="systran_lp" value="ja_en" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="en-ko" description="English to Korean">
+    <params>
+      <param name="systran_lp" value="en_ko" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="ko-en" description="Korean to English">
+    <params>
+      <param name="systran_lp" value="ko_en" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="en-zh" description="English to Simplified Chinese">
+    <params>
+      <param name="systran_lp" value="en_zh" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="zh-en" description="Simplified Chinese to English">
+    <params>
+      <param name="systran_lp" value="zh_en" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="en-zt" description="English to Traditional Chinese">
+    <params>
+      <param name="systran_lp" value="en_zt" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="zt-en" description="Traditional Chinese to English">
+    <params>
+      <param name="systran_lp" value="zt_en" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="en-ru" description="English to Russian">
+    <params>
+      <param name="systran_lp" value="en_ru" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="ru-en" description="Russian to English">
+    <params>
+      <param name="systran_lp" value="ru_en" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="en-fr" description="English to French">
+    <params>
+      <param name="systran_lp" value="en_fr" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="fr-en" description="French to English">
+    <params>
+      <param name="systran_lp" value="fr_en" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="en-de" description="English to German">
+    <params>
+      <param name="systran_lp" value="en_de" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="de-en" description="German to English">
+    <params>
+      <param name="systran_lp" value="de_en" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="en-it" description="English to Italian">
+    <params>
+      <param name="systran_lp" value="en_it" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="it-en" description="Italian to English">
+    <params>
+      <param name="systran_lp" value="it_en" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="en-pt" description="English to Portuguese">
+    <params>
+      <param name="systran_lp" value="en_pt" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="pt-en" description="Portuguese to English">
+    <params>
+      <param name="systran_lp" value="pt_en" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="fr-nl" description="French to Dutch">
+    <params>
+      <param name="systran_lp" value="fr_nl" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="nl-fr" description="Dutch to French">
+    <params>
+      <param name="systran_lp" value="nl_fr" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="fr-es" description="French to Spanish">
+    <params>
+      <param name="systran_lp" value="fr_es" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="es-fr" description="Spanish to French">
+    <params>
+      <param name="systran_lp" value="es_fr" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="fr-de" description="French to German">
+    <params>
+      <param name="systran_lp" value="fr_de" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="de-fr" description="German to French">
+    <params>
+      <param name="systran_lp" value="de_fr" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="fr-pt" description="French to Portuguese">
+    <params>
+      <param name="systran_lp" value="fr_pt" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="pt-fr" description="Portuguese to French">
+    <params>
+      <param name="systran_lp" value="pt_fr" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="fr-it" description="French to Italian">
+    <params>
+      <param name="systran_lp" value="fr_it" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  <langpair id="it-fr" description="Italian to French">
+    <params>
+      <param name="systran_lp" value="it_fr" />
+      <param name="ttype" value="text" />
+    </params>
+  </langpair>
+
+  </langpairs>
+
+</server>
+
+
+<!-- 
+vim:ts=2 sts=2 tw=79 expandtab:
+-->
+
